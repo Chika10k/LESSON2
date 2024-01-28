@@ -5,15 +5,17 @@
 }
 .container{
     height: 100vh;
-    width: 100vw;
+    width: 100vw;    
     display: flex;
     position: relative;
+    margin-left: ;
 }
 .left{
     height: 100vh;
     width: 100vw;
    background: url(images/bg.png);
    padding: 2rem;
+   position: relative;
 }
 header{
     
@@ -29,7 +31,7 @@ header .logo img{
 .main{
     text-align: left ;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 15%;
     margin-left: 30px;
     color: whitesmoke;
 }
@@ -51,8 +53,8 @@ header .logo img{
 }
 .reach{
     margin-top: 2rem;
-
 }
+
 .reach p a{
     text-decoration: none;
     padding: 11px;
@@ -61,20 +63,34 @@ header .logo img{
 
 
 .footer{
+    color: whitesmoke;
     display: flex;
-    margin-top: 5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 11px;
+    /*margin-top: 5rem;
     align-items: center;
     justify-content: space-between;
     color: whitesmoke;
-    padding-top: 8px;
+    padding-top: 8px;*/
 }
 
-.socials ul{
-    text-align: end;
+.socials{
+    justify-content: center;
+    align-content: center;
     
 }
+    
+
 .socials ul li{
-    text-align: end;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     
